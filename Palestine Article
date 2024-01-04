@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <Title>
+            WHY-Stand with Palestine?
+        </Title>
+        <style>
+            body{background-color: rgb(255, 250, 250);}
+            h1{text-align: center;
+                color: #000000;
+                padding-bottom: 0%;
+                margin-bottom: 0%;
+            }
+         h1:hover{color:rgb(42, 191, 49);text-decoration: wavy;
+            text-shadow: 2cap; }
+            .form{border-color: black;}
+            .label{
+                width: 100%;
+     margin-top: 20px;
+     margin-bottom: 0;
+     margin-left: 0;
+     margin-right: 0;
+     min-height: 2em;
+    display: block;}
+            .section2{
+                padding: 20px;
+                font-family:'Times New Roman', Times, serif;}
+              .lastlegend{
+                text-align: center;
+               }
+            </style>
+         </head>
+      <body>
+        <h1>Why stand with <em>Palestine</em> ?</a> </h1>
+        <!--TO DO:-add more introductary details.-->
+        <fieldset class="firstfield"><legend><h3>Asslamualikum</h3></legend>
+        <p>Myself "Muhammad <i>Kaif</i>" and I am an Undergraduate with  Computer applications major.
+            I am here to help you understand that why you why me why everyone should support and take a stand for them who are being opressed,
+            why we should shout and tell everyone that what is happening there is a <strong>Holocaust</strong> .
+        </fieldset>
+        </p>
+        <fieldset> <legend><h3>What is Palestine?</h3></legend>
+        <section>
+            <article class="article1"> 
+            <p>Palestine (variously transliterated as Falastin, Felesteen, and Felestin) is a state in Western Asia which is now "divided" into two parts:</p>
+            <ul>
+                <li><b>Israel-Occupied Palestine</b></li>
+                <li><b>Palestinian Enclaves</b><i>(the areas designated for Palestinians under a variety of US and Israeli-led proposals)</i>
+                    </li>
+            </ul>
+            <figure>
+                <img src="https://imgs.search.brave.com/0vuUHD9hWdBUR-OYZhkPMjhtzWr2H00mtEv4EYcuyUo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA2LzU5LzYzLzkx/LzM2MF9GXzY1OTYz/OTE0N19SanA0YUpl/SDZQTG1WdklUSXFW/Wkl3QzVvMWRraHI3/bC5qcGc" alt="map">
+                <figcaption>Present Map of Palestine</figcaption>
+            </figure>        
+        </article></fieldset>
+        <fieldset> <legend><h3>What are the roots of the Israel-Palestine conflict?</h3></legend>
+        <article class="roots">
+            <p>
+                People have different opinions on where the problems in the Middle East, especially between Israelis and Palestinians, really began. Some go way back to ancient times, like the Romans. Others start with Jewish people moving to escape persecution in the late 1800s, or the British supporting a Jewish homeland in 1917. But for many, the key moment is the United Nations' decision in 1947 to split the land in Palestine into two parts, one for Jews and one for Arabs, after the Holocaust.
+                But why a country decide for another country that what they have to do about their geopolitcal or religious issues without thier permission?
+            </p>
+        </article>
+    </fieldset>
+       </section>
+       <section class="section2">
+            <fieldset class="form">
+                <legend class="lastlegend"><h4>Contributor Form</h4></legend>
+            <form action="form.php">
+            <input type="text" name="intro" placeholder="Your Name" required>  
+            <br>
+            <input type="email" name="intro" placeholder="E-mail" required> 
+            <br>
+          <label class="label">
+            <input type="radio" name="jobrole" checked>Project Writer
+            <input type="radio" name="jobrole">Full-time Writer
+            <input type="radio" name="jobrole">Research Associate
+            <input type="radio" name="jobrole">Marketing Strategist
+          </label>  
+            <br>
+            <h5>Your Experience<i>(in years)</i></h5> 
+            <select>
+                <option value="B1">Fresher</option>
+                <option value="B2">0-1</option>
+                <option value="B3">1-2</option>
+                <option value="B4">2-3</option>  
+                <option value="B5">3-5</option>
+                <option value="B6">5+</option> 
+            </select>
+            <br>
+            <input type="checkbox" name="Preferred Role">Agree to Terms and conditions
+             <br>
+            <textarea placeholder="Share Your thoughts about it" name="thoughts" id="" cols="30" rows="10"></textarea>
+            </form>
+         </fieldset>
+      </section>    
+    </body>
+</html>
